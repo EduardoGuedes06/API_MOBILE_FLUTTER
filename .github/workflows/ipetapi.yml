@@ -3,7 +3,7 @@ name: Compilar e implantar o aplicativo .NET Core no Aplicativo Web ipetapi com 
 on:
   push:
     branches:
-    - main
+      - main
 
 env:
   AZURE_WEBAPP_NAME: ipetapi
@@ -25,17 +25,13 @@ jobs:
   build:
     runs-on: windows-latest
     steps:
-    - uses: actions/checkout@v3
+    - name: Checkout Repository
+      uses: actions/checkout@v2
 
     - name: Setup .NET SDK
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: ${{ env.DOTNET_CORE_VERSION }}
-
-    - name: Setup SwashBuckle .NET Core
-      uses: actions/setup-dotnet@v3
-      with:
-        dotnet-version: ${{ env.SWASHBUCKLE_DOTNET_CORE_VERSION }}
 
     - name: Restore
       run: dotnet restore ${{ env.WORKING_DIRECTORY }}
@@ -54,7 +50,7 @@ jobs:
       working-directory: ${{ env.WORKING_DIRECTORY }}
 
     - name: Publish Artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v2
       with:
         name: webapp
         path: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
@@ -63,13 +59,8 @@ jobs:
     runs-on: windows-latest
     needs: build
     steps:
-    - name: Azure Login
-      uses: azure/login@v1
-      with:
-        creds: ${{ secrets.IpetAPIapi_SPN }}
-
     - name: Download artifact from build job
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v2
       with:
         name: webapp
         path: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
@@ -81,9 +72,19 @@ jobs:
         package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
         publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_07EC70E48FEC45BC920BFBC64E261385 }}
 
+    - name: Install Azure CLI
+      run: |
+        curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+      if: runner.os == 'Windows'
+
+    - name: Azure Login
+      run: |
+        az login --service-principal -u ${{ secrets.IpetAPIapi_SPN_CLIENT_ID }} -p ${{ secrets.IpetAPIapi_SPN_CLIENT_SECRET }} --tenant ${{ secrets.IpetAPIapi_SPN_TENANT_ID }}
+      if: runner.os == 'Windows'
+
     - name: Import API into Azure API Management
       run: az apim api import --path "${{ env.AZURE_APIM_RESOURCE_PATH }}" --resource-group "${{ env.AZURE_APIM_RESOURCEGROUP }}" --service-name "${{ env.AZURE_APIM_SERVICENAME }}" --api-id "${{ env.AZURE_APIM_API_ID }}" --service-url "${{ env.AZURE_APIM_APPSERVICEURL }}" --specification-path "${{ env.API_IMPORT_SPECIFICATION_PATH }}" --specification-format OpenApi --subscription-required false
 
     - name: logout
-      run: >
-        az logout
+      run: az logout
+      if: runner.os == 'Windows'
