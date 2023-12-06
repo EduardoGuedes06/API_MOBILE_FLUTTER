@@ -195,7 +195,6 @@ D:\AMBIENTE DEV\DART\MOBILE\API_IPET\src\Ipet.API\bin\Release\net6.0\Microsoft.I
 D:\AMBIENTE DEV\DART\MOBILE\API_IPET\src\Ipet.API\bin\Release\net6.0\Microsoft.IdentityModel.Protocols.dll
 D:\AMBIENTE DEV\DART\MOBILE\API_IPET\src\Ipet.API\bin\Release\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\AMBIENTE DEV\DART\MOBILE\API_IPET\src\Ipet.API\bin\Release\net6.0\Microsoft.IdentityModel.Tokens.dll
-D:\AMBIENTE DEV\DART\MOBILE\API_IPET\src\Ipet.API\bin\Release\net6.0\Microsoft.OpenApi.dll
 D:\AMBIENTE DEV\DART\MOBILE\API_IPET\src\Ipet.API\bin\Release\net6.0\Microsoft.Rest.ClientRuntime.dll
 D:\AMBIENTE DEV\DART\MOBILE\API_IPET\src\Ipet.API\bin\Release\net6.0\Microsoft.Win32.SystemEvents.dll
 D:\AMBIENTE DEV\DART\MOBILE\API_IPET\src\Ipet.API\bin\Release\net6.0\MySqlConnector.dll
@@ -207,9 +206,6 @@ D:\AMBIENTE DEV\DART\MOBILE\API_IPET\src\Ipet.API\bin\Release\net6.0\Prometheus.
 D:\AMBIENTE DEV\DART\MOBILE\API_IPET\src\Ipet.API\bin\Release\net6.0\SQLitePCLRaw.batteries_v2.dll
 D:\AMBIENTE DEV\DART\MOBILE\API_IPET\src\Ipet.API\bin\Release\net6.0\SQLitePCLRaw.core.dll
 D:\AMBIENTE DEV\DART\MOBILE\API_IPET\src\Ipet.API\bin\Release\net6.0\SQLitePCLRaw.provider.e_sqlite3.dll
-D:\AMBIENTE DEV\DART\MOBILE\API_IPET\src\Ipet.API\bin\Release\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-D:\AMBIENTE DEV\DART\MOBILE\API_IPET\src\Ipet.API\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\AMBIENTE DEV\DART\MOBILE\API_IPET\src\Ipet.API\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\AMBIENTE DEV\DART\MOBILE\API_IPET\src\Ipet.API\bin\Release\net6.0\System.Configuration.ConfigurationManager.dll
 D:\AMBIENTE DEV\DART\MOBILE\API_IPET\src\Ipet.API\bin\Release\net6.0\System.Drawing.Common.dll
 D:\AMBIENTE DEV\DART\MOBILE\API_IPET\src\Ipet.API\bin\Release\net6.0\System.IdentityModel.Tokens.Jwt.dll

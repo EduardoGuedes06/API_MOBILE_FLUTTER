@@ -3,7 +3,7 @@ using LastCode.Identity.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.OpenApi.Models;
+
 
 namespace Ipet.API.Configuration
 {
