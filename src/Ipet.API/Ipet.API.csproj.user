@@ -5,6 +5,6 @@
   </PropertyGroup>
   <PropertyGroup>
     <ActiveDebugProfile>IIS Express</ActiveDebugProfile>
-    <NameOfLastUsedPublishProfile>D:\AMBIENTE DEV\DART\MOBILE\FLUTTER_DEMO_IPET\FLUTTER_IPET_DEMO\ApiIpet_Mobile\API\src\Ipet.API\Properties\PublishProfiles\FolderProfile.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>D:\AMBIENTE DEV\DART\MOBILE\API_IPET\.github\workflows\ipetapi.yml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>
