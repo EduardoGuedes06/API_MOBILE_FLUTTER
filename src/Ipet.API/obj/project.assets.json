@@ -8386,11 +8386,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\ApiIpet_Mobile\\API\\src\\Ipet.API\\Ipet.API.csproj",
+      "projectUniqueName": "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\src\\Ipet.API\\Ipet.API.csproj",
       "projectName": "Ipet.API",
-      "projectPath": "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\ApiIpet_Mobile\\API\\src\\Ipet.API\\Ipet.API.csproj",
+      "projectPath": "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\src\\Ipet.API\\Ipet.API.csproj",
       "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
-      "outputPath": "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\ApiIpet_Mobile\\API\\src\\Ipet.API\\obj\\",
+      "outputPath": "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\src\\Ipet.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8408,14 +8408,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\ApiIpet_Mobile\\API\\src\\IPet.Data\\Ipet.Data.csproj": {
-              "projectPath": "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\ApiIpet_Mobile\\API\\src\\IPet.Data\\Ipet.Data.csproj"
+            "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\src\\IPet.Data\\Ipet.Data.csproj": {
+              "projectPath": "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\src\\IPet.Data\\Ipet.Data.csproj"
             },
-            "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\ApiIpet_Mobile\\API\\src\\Ipet.Domain\\Ipet.Domain.csproj": {
-              "projectPath": "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\ApiIpet_Mobile\\API\\src\\Ipet.Domain\\Ipet.Domain.csproj"
+            "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\src\\Ipet.Domain\\Ipet.Domain.csproj": {
+              "projectPath": "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\src\\Ipet.Domain\\Ipet.Domain.csproj"
             },
-            "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\ApiIpet_Mobile\\API\\src\\Ipet.Service\\Ipet.Service.csproj": {
-              "projectPath": "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\ApiIpet_Mobile\\API\\src\\Ipet.Service\\Ipet.Service.csproj"
+            "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\src\\Ipet.Service\\Ipet.Service.csproj": {
+              "projectPath": "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\src\\Ipet.Service\\Ipet.Service.csproj"
             }
           }
         }

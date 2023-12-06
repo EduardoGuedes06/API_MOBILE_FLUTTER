@@ -71,11 +71,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\ApiIpet_Mobile\\API\\src\\Ipet.Service\\Ipet.Service.csproj",
+      "projectUniqueName": "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\src\\Ipet.Service\\Ipet.Service.csproj",
       "projectName": "Ipet.Service",
-      "projectPath": "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\ApiIpet_Mobile\\API\\src\\Ipet.Service\\Ipet.Service.csproj",
+      "projectPath": "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\src\\Ipet.Service\\Ipet.Service.csproj",
       "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
-      "outputPath": "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\ApiIpet_Mobile\\API\\src\\Ipet.Service\\obj\\",
+      "outputPath": "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\src\\Ipet.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -92,8 +92,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\ApiIpet_Mobile\\API\\src\\Ipet.Domain\\Ipet.Domain.csproj": {
-              "projectPath": "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\ApiIpet_Mobile\\API\\src\\Ipet.Domain\\Ipet.Domain.csproj"
+            "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\src\\Ipet.Domain\\Ipet.Domain.csproj": {
+              "projectPath": "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\src\\Ipet.Domain\\Ipet.Domain.csproj"
             }
           }
         }

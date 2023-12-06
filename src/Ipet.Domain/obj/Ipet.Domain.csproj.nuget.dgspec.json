@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\ApiIpet_Mobile\\API\\src\\Ipet.Domain\\Ipet.Domain.csproj": {}
+    "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\src\\Ipet.Domain\\Ipet.Domain.csproj": {}
   },
   "projects": {
-    "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\ApiIpet_Mobile\\API\\src\\Ipet.Domain\\Ipet.Domain.csproj": {
+    "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\src\\Ipet.Domain\\Ipet.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\ApiIpet_Mobile\\API\\src\\Ipet.Domain\\Ipet.Domain.csproj",
+        "projectUniqueName": "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\src\\Ipet.Domain\\Ipet.Domain.csproj",
         "projectName": "Ipet.Domain",
-        "projectPath": "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\ApiIpet_Mobile\\API\\src\\Ipet.Domain\\Ipet.Domain.csproj",
+        "projectPath": "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\src\\Ipet.Domain\\Ipet.Domain.csproj",
         "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
-        "outputPath": "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\ApiIpet_Mobile\\API\\src\\Ipet.Domain\\obj\\",
+        "outputPath": "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\src\\Ipet.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2awmnbFC6ANnIQUxxws4IpJ8JnJ1EaefhUznmk/loj2D9Teo7hGy/Kpj5D2nZdnTPvDt53y36EKgCoL88pzsZA==",
+  "dgSpecHash": "yNdd89fmMikK679ux6bumya9Zi2FJw/Hr9y9xc7gSJf6vErZUTtm9mDIYNgRNUo7Lkom7ts1m2dsbF8pm7MJ3w==",
   "success": true,
-  "projectFilePath": "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\ApiIpet_Mobile\\API\\src\\Ipet.Service\\Ipet.Service.csproj",
+  "projectFilePath": "D:\\AMBIENTE DEV\\DART\\MOBILE\\API_IPET\\src\\Ipet.Service\\Ipet.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Eduardo\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512"
   ],
