@@ -15,7 +15,7 @@ builder.Configuration
 
 builder.Services.AddDbContext<MeuDbContext>(options =>
 {
-    var connectionString = "server=164.152.244.159;database=ipet_mobile;uid=isaac;pwd=Isaacroque0209@;";
+    var connectionString = "server=mysql-banco-api.mysql.database.azure.com;initial catalog = IPET;uid=MysqlRoot;pwd=Mudar#123";
 
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString))
            .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
@@ -31,8 +31,8 @@ var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
 {
-    //app.UseSwagger();
-    //app.UseSwaggerUI();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 app.UseApiConfig(app.Environment);

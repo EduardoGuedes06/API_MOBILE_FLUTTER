@@ -43,3 +43,18 @@ D:\AMBIENTE DEV\DART\MOBILE\FLUTTER_DEMO_IPET\FLUTTER_IPET_DEMO\ApiIpet_Mobile\A
 D:\AMBIENTE DEV\DART\MOBILE\FLUTTER_DEMO_IPET\FLUTTER_IPET_DEMO\ApiIpet_Mobile\API\src\Ipet.Service\obj\Debug\net6.0\refint\Ipet.Service.dll
 D:\AMBIENTE DEV\DART\MOBILE\FLUTTER_DEMO_IPET\FLUTTER_IPET_DEMO\ApiIpet_Mobile\API\src\Ipet.Service\obj\Debug\net6.0\Ipet.Service.pdb
 D:\AMBIENTE DEV\DART\MOBILE\FLUTTER_DEMO_IPET\FLUTTER_IPET_DEMO\ApiIpet_Mobile\API\src\Ipet.Service\obj\Debug\net6.0\ref\Ipet.Service.dll
+C:\Users\Eduardo\Desktop\FLUTTER_IPET_DEMO-main\ApiIpet_Mobile\API\src\Ipet.Service\bin\Debug\net6.0\Ipet.Service.deps.json
+C:\Users\Eduardo\Desktop\FLUTTER_IPET_DEMO-main\ApiIpet_Mobile\API\src\Ipet.Service\bin\Debug\net6.0\Ipet.Service.dll
+C:\Users\Eduardo\Desktop\FLUTTER_IPET_DEMO-main\ApiIpet_Mobile\API\src\Ipet.Service\bin\Debug\net6.0\Ipet.Service.pdb
+C:\Users\Eduardo\Desktop\FLUTTER_IPET_DEMO-main\ApiIpet_Mobile\API\src\Ipet.Service\bin\Debug\net6.0\Ipet.Domain.dll
+C:\Users\Eduardo\Desktop\FLUTTER_IPET_DEMO-main\ApiIpet_Mobile\API\src\Ipet.Service\bin\Debug\net6.0\Ipet.Domain.pdb
+C:\Users\Eduardo\Desktop\FLUTTER_IPET_DEMO-main\ApiIpet_Mobile\API\src\Ipet.Service\obj\Debug\net6.0\Ipet.Service.csproj.AssemblyReference.cache
+C:\Users\Eduardo\Desktop\FLUTTER_IPET_DEMO-main\ApiIpet_Mobile\API\src\Ipet.Service\obj\Debug\net6.0\Ipet.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eduardo\Desktop\FLUTTER_IPET_DEMO-main\ApiIpet_Mobile\API\src\Ipet.Service\obj\Debug\net6.0\Ipet.Service.AssemblyInfoInputs.cache
+C:\Users\Eduardo\Desktop\FLUTTER_IPET_DEMO-main\ApiIpet_Mobile\API\src\Ipet.Service\obj\Debug\net6.0\Ipet.Service.AssemblyInfo.cs
+C:\Users\Eduardo\Desktop\FLUTTER_IPET_DEMO-main\ApiIpet_Mobile\API\src\Ipet.Service\obj\Debug\net6.0\Ipet.Service.csproj.CoreCompileInputs.cache
+C:\Users\Eduardo\Desktop\FLUTTER_IPET_DEMO-main\ApiIpet_Mobile\API\src\Ipet.Service\obj\Debug\net6.0\Ipet.Service.csproj.CopyComplete
+C:\Users\Eduardo\Desktop\FLUTTER_IPET_DEMO-main\ApiIpet_Mobile\API\src\Ipet.Service\obj\Debug\net6.0\Ipet.Service.dll
+C:\Users\Eduardo\Desktop\FLUTTER_IPET_DEMO-main\ApiIpet_Mobile\API\src\Ipet.Service\obj\Debug\net6.0\refint\Ipet.Service.dll
+C:\Users\Eduardo\Desktop\FLUTTER_IPET_DEMO-main\ApiIpet_Mobile\API\src\Ipet.Service\obj\Debug\net6.0\Ipet.Service.pdb
+C:\Users\Eduardo\Desktop\FLUTTER_IPET_DEMO-main\ApiIpet_Mobile\API\src\Ipet.Service\obj\Debug\net6.0\ref\Ipet.Service.dll

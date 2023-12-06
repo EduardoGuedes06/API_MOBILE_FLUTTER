@@ -18,7 +18,7 @@ namespace Ipet.APIConfiguration
             services.AddDbContext<ApplicationDbContext>(options =>
             {
                 //MYSQL
-                options.UseMySql("server=164.152.244.159;initial catalog = ipet_mobile;uid=isaac;pwd=Isaacroque0209@;",
+                options.UseMySql("server=mysql-banco-api.mysql.database.azure.com;initial catalog = IPET;uid=MysqlRoot;pwd=Mudar#123",
                 Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.0-mysql"));
                 //options.UseMySql("server=localhost;initial catalog = lastcodelogin;uid=root;pwd=Root",
                 //Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.0-mysql")).UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
@@ -45,24 +45,24 @@ namespace Ipet.APIConfiguration
             var appSettings = appSettingsSection.Get<AppSettings>();
             var key = Encoding.ASCII.GetBytes(appSettings.Secret);
 
-            //services.AddAuthentication(x =>
-            //{
-            //    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-            //    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-            //}).AddJwtBearer(x =>
-            //{
-            //    x.RequireHttpsMetadata = true;
-            //    x.SaveToken = true;
-            //    x.TokenValidationParameters = new TokenValidationParameters
-            //    {
-            //        ValidateIssuerSigningKey = true,
-            //        IssuerSigningKey = new SymmetricSecurityKey(key),
-            //        ValidateIssuer = true,
-            //        ValidateAudience = true,
-            //        ValidAudience = appSettings.ValidoEm,
-            //        ValidIssuer = appSettings.Emissor
-            //    };
-            //});
+            services.AddAuthentication(x =>
+            {
+                x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(x =>
+            {
+                x.RequireHttpsMetadata = true;
+                x.SaveToken = true;
+                x.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(key),
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidAudience = appSettings.ValidoEm,
+                    ValidIssuer = appSettings.Emissor
+                };
+            });
 
             return services;
         }

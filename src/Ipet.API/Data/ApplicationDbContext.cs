@@ -12,7 +12,7 @@ namespace Ipet.API.Data
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
                 //options.UseMySql("server=mysql-banco-api.mysql.database.azure.com;initial catalog = IPET;uid=MysqlRoot;pwd=Mudar#123",
-            options.UseMySql("server=164.152.244.159;initial catalog = ipet_mobile;uid=isaac;pwd=Isaacroque0209@;",
+            options.UseMySql("server=mysql-banco-api.mysql.database.azure.com;initial catalog = IPET;uid=MysqlRoot;pwd=Mudar#123",
             Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.0-mysql")).UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
         }
     } 
