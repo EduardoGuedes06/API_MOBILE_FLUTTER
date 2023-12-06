@@ -4,7 +4,10 @@
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup>
-    <ActiveDebugProfile>IIS Express</ActiveDebugProfile>
+    <ActiveDebugProfile>Ipet.API</ActiveDebugProfile>
     <NameOfLastUsedPublishProfile>D:\AMBIENTE DEV\DART\MOBILE\API_IPET\.github\workflows\ipetapi.yml</NameOfLastUsedPublishProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
 </Project>
