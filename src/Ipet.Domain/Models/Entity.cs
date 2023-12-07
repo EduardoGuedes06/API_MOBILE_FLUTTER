@@ -7,7 +7,7 @@ namespace Ipet.Domain.Models
         protected Entity()
         {
             Id = Guid.NewGuid();
-            DataCadastro = DateTime.Now;
+            DataCadastro = TimeZoneInfo.ConvertTime(DateTime.Now, TimeZoneInfo.FindSystemTimeZoneById("America/Sao_Paulo"));
         }
 
         public Guid Id { get; set; }
