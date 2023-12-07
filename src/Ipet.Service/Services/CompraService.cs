@@ -33,9 +33,10 @@ namespace Ipet.Service.Services
             }
 
             foreach (var carrinhoItem in carrinhoItens)
-            {
+            {   
+
                 
-                if (carrinhoItem.Qtde < 1) { total = carrinhoItem.Valor * carrinhoItem.Qtde; } else
+                if (carrinhoItem.Qtde > 1) { total = total + carrinhoItem.Valor * carrinhoItem.Qtde; } else
                 {
                     total = total + carrinhoItem.Valor;
                 }
